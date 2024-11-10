@@ -24,7 +24,8 @@ function Select-WiFi {
     Allows to view stored password of currently or earlier connected Wi-Fi network.
 .Parameter SSID
     Name of stored Wi-Fi network.
-.Example
+.Examplessid
+*
     # View password of currently connected Wi-Fi network.
     Show-WiFiPassword
 .Example
@@ -46,7 +47,8 @@ SSID       : $SSID
 Password   : $Password
 Auth type  : $AuthType
 "
-}
+}mai 
+
 
 Set-Alias WiFi-Password Show-WiFiPassword
 
